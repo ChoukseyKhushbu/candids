@@ -55,35 +55,50 @@ flex-direction: column;
 .box{
     /* margin: 50px 0 50px 15px; */
     display: flex;
+    flex-direction: column;
     padding: 2em;
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
     
 }
 
 .bottom{
     display: flex;
+    flex-direction: column;
     align-items: center;
     margin-bottom: 2em;
+    font-family: 'Poppins',sans-serif;
 }
 
 input{
-    width:90%;
+    width:100%;
     background-color: transparent;
     border: 0px;
     border-bottom: 1px solid;
-    margin: 10px 0;
-
+    margin-bottom: 2em;
+    padding-left: 0.5em;
+    outline: none;
+    font-family: 'Poppins',sans-serif;
 }
 
 a{
     color: #888888; 
     font-size: 16px;
-    text-decoration: none; 
+    /* text-decoration: none;  */
 }
 
 button{
-    font-size: 20px;
-    border-radius: 30px;
-    padding: 10px 50px;
-    background-color: white;
+    width: 216px;
+    height: 44px;
+    font-size: 18px;
+    border-radius: 22px;
+    border: none;
+    /* padding: 10px 50px; */
+    text-align: center;
+    background-color: #F4F4F4;
     margin: 10px;
+    font-family: 'Poppins',sans-serif;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.16),
+                0 4px 8px rgba(0,0,0,0.08),
+                0 6px 16px rgba(0,0,0,0.10);
 }
