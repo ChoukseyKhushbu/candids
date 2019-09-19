@@ -1,7 +1,9 @@
 :root{
     background-color:#E2E0DD; 
-    font-size: 20px;
+    font-size: 16px;
+    font-family: 'Poppins',sans-serif;
     height: 100%;
+    
 }
 body{
     height: 100%;
